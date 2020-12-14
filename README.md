@@ -7,3 +7,5 @@ I even made a small app to reproduce this issue and I have been able to reproduc
 The infinite token loop stops only when I manually sign out the user or the quota gets exceeded.
 
 I am using Ionic Framework, Vue and Firebase.
+
+I would love to get in contact with someone to figure this out.
