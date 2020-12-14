@@ -4,4 +4,6 @@ The requests keep getting fired until they reach the max quota (around 200 I thi
 
 I even made a small app to reproduce this issue and I have been able to reproduce it in it's entirety. The app has a home view and a login view (buttons: log in, log out, test db - makes a Firestore call to write some sample data).
 
+The infinite token loop stops only when I manually sign out the user or the quota gets exceeded.
+
 I am using Ionic Framework, Vue and Firebase.
